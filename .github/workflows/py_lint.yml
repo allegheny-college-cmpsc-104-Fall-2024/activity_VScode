@@ -1,0 +1,17 @@
+name: Python Linting
+
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3'
+    - name: Install Pylint
+      run: pip install pylint
+    - name: Run Pylint
+      run: pylint src/pylint_sol.py
