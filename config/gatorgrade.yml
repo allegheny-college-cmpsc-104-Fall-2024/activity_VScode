@@ -1,0 +1,14 @@
+setup: |
+  echo "🐊 All project dependencies have been installed!"
+---
+
+# perform checks on py_lint.yml
+- .github/workflows/py_lint.yml:
+    - description: "Ensure that a py_lint.yml file exists"
+      check: "ConfirmFileExists"
+    - description: "No TODOs remain in the py_lint.yml file"
+      check: "MatchFileFragment"
+      options:
+        fragment: "TODO"
+        count: 0
+        exact: true
