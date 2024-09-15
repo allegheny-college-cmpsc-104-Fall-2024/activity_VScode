@@ -5,7 +5,7 @@
 <table>
   <thead>
       <td style="text-align:left;">Assigned</td>
-      <td style="text-align:left;">Monday 16 September 2024</td>
+      <td style="text-align:left;">Friday 20 September 2024</td>
   </thead>
   <tfoot>
       <td style="text-align:left; color: red;">Deadline</td>
