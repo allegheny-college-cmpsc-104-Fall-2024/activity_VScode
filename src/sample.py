@@ -1,4 +1,3 @@
-# sample.py
 def calculate_mean(numbers):
     total = sum(numbers)
     count = len(numbers)
