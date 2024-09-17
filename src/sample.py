@@ -4,5 +4,6 @@ def calculate_mean(numbers):
     mean = total / count
     return mean
 
-nums = [1, 2, 3, 4, 5]
-print("The mean is", calculate_mean(nums))
+if __name__ == "__main__":
+    nums = [1, 2, 3, 4, 5]
+    print("The mean is", calculate_mean(nums))
