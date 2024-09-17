@@ -15,7 +15,7 @@
 
 ![Activity 1](https://github.com/allegheny-college-cmpsc-104-Fall-2024/activity_VScode/blob/main/graphics/github_actions.png)
 
-## Project Goals
+## Activity Goals
 - Learn how to use linters for code quality checks.
 - Configure an automated linting process with GitHub Actions.
 - Gain experience with practical DevOps automation for codebase maintenance.
